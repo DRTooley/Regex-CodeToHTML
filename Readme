@@ -1,0 +1,42 @@
+HANDOUT CS441 FALL 2014 PROVIDED BY J. W. JAROMCZYK
+Your name: David Tooley
+CS 441, Programming Assignment 1
+Sep 21, 2014
+
+Description/Purpose:
+	Pascal.lex uses regular expressions to change the format of a given pascal file into a highlight, easier to read html file.
+
+
+Synopsis:
+Usage: pa1cs441f14 <input.[pas]> <output.html>
+       Processes input.[p,pas] and creates output.html from it
+   or: pa1cs441f14 -h
+       Output usage
+
+
+Files:
+project 1 (modified from handout) all sources + makefile
+pascal.lex	-Program with Regular Expressions to format the html output
+transcript.txt 	- transcript of run
+Readme		- this file
+sort.pas, 
+QuickSort.pas, 
+newSet.pas	- sample pascal programs, of various complexity
+alllex.pas - a test file that just lists examples of all  possible tokens
+sort.html	- output from pa1cs441f14 < sort.pas 
+QuickSort.html	- output from pa1cs441f14 < QuickSort.pas 
+newSet.html	- output from pa1cs441f14 < newSet.pas 
+pascal.css	- style sheet for the pascal highlighter, 
+
+Comments:
+The project is modified from the handout provided
+by the instructor (Dr. JW Jaromczyk)
+Internal comments in the pas.spec and hash.c
+detail all modifications.
+
+pascal.css must be in the same directory as the generated *.html file.
+
+Bugs:
+
+Extras:
+

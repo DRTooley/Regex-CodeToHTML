@@ -1,0 +1,24 @@
+##REMOVE THIS LINE AFTER MODIFYING CSS FOR PASCAL
+.COMMENT_COLOR {
+	color:	#7aa87a;
+}
+
+.NUMBER_COLOR {
+	color:	#af4141;
+}
+
+.OPERATOR_COLOR {
+	color:	#a54bcc;
+}
+
+.SEPARATOR_COLOR {
+	color:	#494949;
+}
+
+.IDENTIFIER_COLOR {
+	color:	#678ac6;
+}
+
+.STRINGLITERAL_COLOR {
+	color:	#ffa100;
+}
